@@ -1,6 +1,22 @@
-<script setup>
+<!-- 
+  <script setup >
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+</script>
+ -->
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+import HelloWorld from './components/HelloWorld.vue';
+import { useRoute } from 'vue-router';
+
+export default defineComponent({
+  components:{
+    HelloWorld
+  }
+})
+
+const route = useRoute();
 </script>
 
 <template>

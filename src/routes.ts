@@ -51,5 +51,4 @@ const router = createRouter({
 router.beforeEach((to, from) => {
     console.debug(`Navigation event: ${from.fullPath} -> ${to.fullPath}`);
   });
-  
-  export default router;
+export default router;

@@ -4,7 +4,7 @@
   "compilerOptions": {
     "noEmit": true,
     "module": "ESNext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "jsx": "preserve",
     "jsxImportSource": "vue",
@@ -17,6 +17,8 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "removeComments": false,
+    "importHelpers": true,
+    "isolatedModules": true,
 
     "baseUrl": ".",
     "paths": {
