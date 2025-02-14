@@ -9,6 +9,7 @@ import TheWelcome from './components/TheWelcome.vue'
 import { defineComponent } from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
 import { useRoute } from 'vue-router';
+import CvView from './views/CvView.vue';
 
 export default defineComponent({
   components:{
@@ -25,6 +26,10 @@ const route = useRoute();
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+    </div>
+
+    <div>
+      <CvView/>
     </div>
 
   </header>
