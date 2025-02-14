@@ -26,12 +26,22 @@ const route = useRoute();
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
+
   </header>
 
-  <main>
-    <TheWelcome />
+  <main>    
+    <p>Bienvenue sur mon portfolio.</p>
   </main>
+
+  <footer>
+    <address>
+        <strong>Mathiot Makoto</strong><br>
+        <a href="mailto:mathiotmakoto@gmail.com">mathiotmakoto@gmail.com</a>
+    </address>
+  </footer>
+  <a href="#">Retour en haut de la page</a>
 </template>
+
 
 <style scoped>
 header {

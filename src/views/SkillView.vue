@@ -2,5 +2,5 @@
 </script>
 
 <template>
-    <p>Test</p>
+    <p>Compétences</p>
 </template>
