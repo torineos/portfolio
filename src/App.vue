@@ -21,6 +21,25 @@ const route = useRoute();
 </script>
 
 <template>
+  <ServerConfigProvider>
+    <ThemeProvider>
+      <TitleProvider>
+        <router-view v-slot="{ Component }">
+          <UserProvider>
+            <div class="flex h-full max-h-screen flex-col print:block">
+              <NavigationBar class="flex-none print:hidden" />
+              <main class="relative flex grow overflow-y-auto">
+                <component :is="Component" />
+              </main>
+            </div>
+          </UserProvider>
+        </router-view>
+      </TitleProvider>
+    </ThemeProvider>
+  </ServerConfigProvider>
+</template>
+
+<!-- <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
@@ -45,7 +64,7 @@ const route = useRoute();
     </address>
   </footer>
   <a href="#">Retour en haut de la page</a>
-</template>
+</template> -->
 
 
 <style scoped>

@@ -4,7 +4,7 @@
   "compilerOptions": {
     "noEmit": true,
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": ["node"],
     "resolveJsonModule": true,
     "jsx": "preserve",
     "jsxImportSource": "vue",
