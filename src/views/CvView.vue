@@ -22,6 +22,7 @@
       },
       onCountdownEnd: function () {
         this.counting = false;
+        
       },
     },
   };

@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
+
+// Import components
 import HomeView from './views/HomeView.vue';
 import SkillView from './views/SkillView.vue';
 import CvView from './views/CvView.vue';
-import ProfExpView from './views/ProfExpView.vue';
 import ProjectsView from './views/ProjectsView.vue';
 import EngVideoView from './views/EngVideoView.vue';
 
@@ -28,14 +29,14 @@ const router = createRouter({
         meta: { attached: true },
     },
     {
-        path: '/professionnel',
-        name: 'Experiences professionnelles',
+        path: '/about',
+        name: 'About me',
         component: ProfExpView,
         meta: { attached: true },
     },
     {
         path: '/projets',
-        name: 'Projets',
+        name: 'Projects',
         component: ProjectsView,
         meta: { attached: true },
     },

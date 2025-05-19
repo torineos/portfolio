@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@source "**/*.{vue,js,ts,jsx,tsx}";
+
+/* Dark mode plugin for manual toggle. Only add button before supporting system theme support. */
+@custom-variant dark (&:where(.dark, .dark *));

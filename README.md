@@ -27,3 +27,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+Improvements (when done):
+- Dark mode based on dracula color palette.
+- Website both in french and english.
+- Error page for pages that don't exist 

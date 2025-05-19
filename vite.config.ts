@@ -6,10 +6,11 @@ import { lezer } from "@lezer/generator/rollup";
 import vueDevTools from 'vite-plugin-vue-devtools';
 
 export default defineConfig({
-    plugins: [vue(), vueDevTools(), tailwindcss(), lezer()],
-    resolve: {
-      alias: {
-        "@": fileURLToPath(new URL("./src", import.meta.url)),
+  plugins: [vue(), vueDevTools(), tailwindcss(), lezer()],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
       }
-    }
-})
+    },
+  }
+)
