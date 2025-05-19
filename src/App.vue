@@ -1,21 +1,23 @@
 <template>
-   <NavBar v-if="route.meta.attached" > </NavBar>
-  <main>
-    <RouterView v-slot="{ Component, route }">
+  <RouterView v-slot="{ Component, route }">
+   <NavigationBar v-if="route.meta.attached" > </NavigationBar>
+      <main>
+   
       <Transition :name="route.meta.attached ? 'fade' : ''" mode="out-in">
         <component :is="Component" :key="route.path" />
       </Transition>
-    </RouterView>
-  </main>
-  <FooterBar v-if="route.meta.attached" />
 
-  <p>AAAAA</p>
+       <p>AAAAA</p>
+   
+    </main>
+  <FooterBar v-if="route.meta.attached"> </FooterBar>
 
+ </RouterView>
 </template>
 
 <script setup lang="ts">
 // Import tailwind.css
-import "./style.css";
+import "./tailwind.css";
 
 //import components
 import NavigationBar from "@/components/NavigationBar.vue";
