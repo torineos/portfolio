@@ -3,9 +3,9 @@
    <NavigationBar v-if="route.meta.attached" > </NavigationBar>
       <main>
    
-      <Transition :name="route.meta.attached ? 'fade' : ''" mode="out-in">
+      <!-- <Transition :name="route.meta.attached ? 'fade' : ''" mode="out-in"> -->
         <component :is="Component" :key="route.path" />
-      </Transition>
+      <!-- </Transition> -->
 
        <p>AAAAA</p>
    

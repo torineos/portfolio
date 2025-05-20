@@ -7,7 +7,9 @@
         aria-label="Home page link"
         @click.native="handleNativeClick"
       >
-        Accueil
+        <button class:="btn btn-ghost text-xl">
+          Accueil
+        </button>
       </RouterLink>
 
       <RouterLink

@@ -1,8 +1,11 @@
 <template>
     <footer>
         <div class="info">
-            <p>
+            <p class="made-with">
                 Made with VueJS, Typescipt and Vite.
+            </p>
+            <p> 
+                Copyright 2025
             </p>
         </div>
     </footer>
