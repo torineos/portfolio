@@ -1,16 +1,21 @@
 <template>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="none"
+    width="20"
+    height="20"
     viewBox="0 0 24 24"
-    stroke-width="1.5"
+    fill="none"
+    stroke-width="2"
     stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
     class="size-6"
   >
+    <circle cx="12" cy="12" r="5" />
     <path
       stroke-linecap="round"
       stroke-linejoin="round"
-      d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+      d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"
     />
   </svg>
 </template>

@@ -7,3 +7,10 @@
 
 /* Dark mode plugin for manual toggle. Only add button before supporting system theme support. */
 @custom-variant dark (&:where([data-theme=night], [data-theme=night]*));
+
+/* Recurrent styling components here cuz I'm a lazy fuck to the bone */
+@layer components {
+    .button-navbar{
+        @apply btn-soft cursor-pointer rounded-md bg-gray-800 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:text-blue-400 dark:text-blue-600;
+    }
+}

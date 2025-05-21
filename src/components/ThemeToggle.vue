@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <input type="checkbox" name="light-switch" v-model="isDark" class="light-switch sr-only" />
-    <label class="flex items-center justify-center cursor-pointer w-8 h-8 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600/80 rounded-full" for="light-switch">
+  <label class="flex cursor-pointer gap-2">
       <IconSun/>
+      <input type="checkbox" value="night" class="toggle theme-controller" />
       <IconMoon/>
       <span class="sr-only">Switch to light / dark version</span>
-    </label>
-  </div>
+  </label>
 </template>
 
 <script setup lang="ts">
