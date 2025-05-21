@@ -21,7 +21,7 @@ import "./tailwind.css";
 
 //import components
 import NavigationBar from "@/components/NavigationBar.vue";
-import Footer from "@/components/FooterBar.vue";
+import FooterBar from "@/components/FooterBar.vue";
 
 import { defineComponent, Transition } from 'vue';
 import { useRoute } from 'vue-router';
