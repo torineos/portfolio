@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui"{
-    themes: nord --default, night --prefersdark; 
+    themes: light --default, night --prefersdark; 
 }
 
 @source "**/*.{vue,js,ts,jsx,tsx}";
@@ -11,6 +11,6 @@
 /* Recurrent styling components here cuz I'm a lazy fuck to the bone */
 @layer components {
     .button-navbar{
-        @apply btn-soft cursor-pointer rounded-md bg-gray-800 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:text-blue-400 dark:text-blue-600;
+        @apply btn btn-ghost btn-md btn-primary cursor-pointer rounded-md m-2 text-center text-sm font-semibold uppercase;
     }
 }
