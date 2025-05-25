@@ -7,7 +7,6 @@
         <component :is="Component" :key="route.path" />
       <!-- </Transition> -->
 
-       <p>AAAAA</p>
    
     </main>
   <FooterBar v-if="route.meta.attached"> </FooterBar>

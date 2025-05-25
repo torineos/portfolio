@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer sm:footer-horizontal footer-center bg-base-200 text-base-content rounded  p-10">
+    <footer class="footer sm:footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
          <nav class="grid grid-flow-col gap-4">
             <a href="mailto:mathiotmakoto@gmail.com" class="link link-hover">Send me an email ?</a>
     

@@ -7,6 +7,7 @@ import CvView from './views/CvView.vue';
 import ExperienceView from './views/ExperienceView.vue';
 import ProjectsView from './views/ProjectsView.vue';
 import EngVideoView from './views/EngVideoView.vue';
+import NotFoundView from './views/NotFoundView.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -46,6 +47,16 @@ const router = createRouter({
         name: 'Video en anglais',
         component: EngVideoView,
         meta: { attached: true }, // Show NavBar and FooterBar
+    },
+    {
+      path: '/page-not-found',
+      name: 'Not Found',
+      component: NotFoundView,
+      meta: { attached: true },
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        redirect: '/page-not-found',
     }
     ]
 })

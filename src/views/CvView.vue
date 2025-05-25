@@ -2,28 +2,19 @@
 </script>
 
 <template>
-    <button type="button" class="btn btn-primary" :disabled="counting" @click="startCountdown">
-      <vue-countdown v-if="counting" :time="60000" @end="onCountdownEnd" v-slot="{ totalSeconds }">Téléchargement possible dans {{ totalSeconds }}.</vue-countdown>
-      <span v-else>Téléchargement du CV en .pdf</span>
+    <button class="btn btn-primary">
+      <suspense>
+      <a href="/CV_MATHIOT_2024-2025.pdf">
+      Téléchargement du CV en .pdf
+      </a>
+      <template #fallback>
+        Votre navigateur n'est pas compatible.
+      </template>
+    </suspense>
     </button>
-    <p>coucou</p>
+    <p></p>
 </template>
   
-<script>
-  export default {
-    data() {
-      return {
-        counting: false,
-      };
-    },
-    methods: {
-      startCountdown: function () {
-        this.counting = true;
-      },
-      onCountdownEnd: function () {
-        this.counting = false;
-        
-      },
-    },
-  };
+<script setup lang="ts">
+
 </script>

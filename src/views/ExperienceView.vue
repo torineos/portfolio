@@ -2,5 +2,8 @@
 </script>
 
 <template>
-    <p>Test</p>
+    <article>
+        Centres d'intérets 
+        J'aime dessiner !
+    </article>
 </template>

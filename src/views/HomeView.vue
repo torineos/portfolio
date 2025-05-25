@@ -1,8 +1,9 @@
 <template>
-    <p>Test</p>
+    <p>Makoto MATHIOT</p>
+    <p> Etudiant en BUT3 Réseaux et Télécommunications</p>
     <p>J'ai {{new Date().getFullYear() - 2004}} ans. </p>
 </template>
 
 <script setup lang="ts">
 //.toLocaleDateString('fr-FR')
-</script>
+</script>hhh
