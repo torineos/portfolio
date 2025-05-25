@@ -11,6 +11,6 @@
 /* Recurrent styling components here cuz I'm a lazy fuck to the bone */
 @layer components {
     .button-navbar{
-        @apply btn btn-ghost btn-md btn-primary cursor-pointer rounded-md m-2 text-center text-sm font-semibold uppercase;
+        @apply btn btn-ghost btn-md btn-primary cursor-pointer rounded-md m-2 text-center text-sm font-semibold uppercase focus:ring-4 focus:ring-blue-300;
     }
 }

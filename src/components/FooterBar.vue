@@ -6,7 +6,7 @@
         </nav>
        
             <p class="made-with">
-                Made with VueJS, Typescript and Vite. Styled with Tailwind and Daisy-Ui.
+                Made with <a class="link link-hover" href="https://vuejs.org" >VueJS</a> & <a class="link link-hover" href="https://vitejs.dev" >Vite</a>. Styled with Tailwind and daisyUi.
             </p>
         
         <aside>
