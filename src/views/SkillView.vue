@@ -4,8 +4,6 @@
    
   <p class="text-base-content rounded p-10 text-center">Compétences</p>
 
-  
-
   Compétences techniques Utiliser et modéliser des modèles de Gantt
   Programmation en Python sous Pycharm Administrer un ordinateur sous Windows
   Utiliser les commandes Shell via un terminal Linux Création de pages Web

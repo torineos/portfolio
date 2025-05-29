@@ -5,5 +5,7 @@
 </template>
 
 <script setup lang="ts">
+// import SkillVue from "/src/views/SkillVue.vue";
+import IconShield from "@/components/icons/IconShield.vue";
 //.toLocaleDateString('fr-FR')
-</script>hhh
+</script>

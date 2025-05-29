@@ -2,7 +2,10 @@
 </script>
 
 <template>
-
+<p>Projets Universitaires</p>
+<p>1ère année</p>
+<p>2eme année</p>
+<p>3eme année</p>
 <div class="card bg-base-100 w-96 shadow-sm ">
   <figure>
     <img
