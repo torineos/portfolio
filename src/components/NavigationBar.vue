@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar bg-base-100 shadow-md shadow-primary/50">
+  <nav class="navbar bg-base-100 shadow-md shadow-primary/50 sticky top-0 left-0 w-full">
     <div class="navbar-start">
       <RouterLink
         :to="{ name: 'Home' }"
@@ -59,7 +59,9 @@
     </div>
 
   </nav>
-  
+  <p>
+    <br />
+  </p>
 </template>
 
 <script setup lang="ts">

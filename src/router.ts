@@ -16,6 +16,8 @@ import NetworkSecurityProject from "./views/projects/NetworkSecurityProject.vue"
 import PosterProject from "./views/projects/PortfolioProject.vue";
 import PortfolioProject from "./views/projects/PortfolioProject.vue";
 import TBDProject from "./views/projects/TBDProject.vue";
+import StageMyMSPProject from "./views/projects/StageMyMSPProject.vue";
+import StageILLProject from "./views/projects/StageILLProject.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -75,6 +77,18 @@ const router = createRouter({
           component: TBDProject,
         },
       ],
+    },
+    {
+      path: "/project/stage-my-msp",
+      name: "StageMyMSP",
+      component: StageMyMSPProject,
+      meta: { attached: true },
+    },
+    {
+      path: "/project/stage-ill",
+      name: "StageILL",
+      component: StageILLProject,
+      meta: { attached: true },
     },
     {
       path: "/engvideo",

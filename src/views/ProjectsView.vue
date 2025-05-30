@@ -1,25 +1,7 @@
-<script setup lang="ts">
-</script>
-
 <template>
-<p>Projets Universitaires</p>
-<p>1ère année</p>
-<p>2eme année</p>
-<p>3eme année</p>
-<div class="card bg-base-100 w-96 shadow-sm ">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div class="card-body">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-</div>
-
-
+  <ProjectTiles />
 </template>
+
+<script setup lang="ts">
+import ProjectTiles from "/src/components/ProjectTiles.vue";
+</script>
