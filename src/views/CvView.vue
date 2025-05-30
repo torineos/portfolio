@@ -110,11 +110,11 @@
         </svg>
       </div>
       <div class="timeline-end md:mb-10">
-        <time class="font-mono italic">02/2024</time>
+        <time class="font-mono italic">09/2024</time>
         <div class="text-lg font-black">BUT3 RT - Saint Martin d'Hères</div>
         <p>3eme année. BUT Réseaux et Télécommunications. Spécialité cybersécurité. </p>
         
-        <time class="font-mono italic">02/2024</time>
+        <time class="font-mono italic">02/2025</time>
         <div class="text-lg font-black">
           Stage de 3ème année - Institut Laue-Langevin
         </div>
