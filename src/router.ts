@@ -79,16 +79,22 @@ const router = createRouter({
       ],
     },
     {
-      path: "/project/stage-my-msp",
+      path: "/project/internship-my-msp",
       name: "StageMyMSP",
       component: StageMyMSPProject,
       meta: { attached: true },
     },
     {
-      path: "/project/stage-ill",
+      path: "/project/internship-ill",
       name: "StageILL",
       component: StageILLProject,
       meta: { attached: true },
+    },
+    {
+      path: "/project/portfolio",
+      name: "ProjectPortfolio",
+      component: PortfolioProject,
+      meta: { attached: true }, // Show NavBar and FooterBar
     },
     {
       path: "/engvideo",
@@ -96,6 +102,7 @@ const router = createRouter({
       component: EngVideoView,
       meta: { attached: true }, // Show NavBar and FooterBar
     },
+
     {
       path: "/page-not-found",
       name: "Not Found",

@@ -32,8 +32,22 @@
         </div>
       </div>
       <div>
-        <IconComputer class="stroke-primary" />
+        <IconSignal class="stroke-primary" />
         <span class="ml-3 mr-2.5 w-2 h-7 bg-primary rounded-r-md"></span>
+        <div>
+          <div>Télécommunications</div>
+          <div class="text-xs uppercase font-semibold opacity-60">
+            Remaining Reason
+          </div>
+        </div>
+        <div class="list-col-wrap text-s">
+          <p>- Téléphonie</p>
+          <p>- Analyse du protocole NFC</p>
+        </div>
+      </div>
+      <div>
+        <IconComputer class="stroke-secondary" />
+        <span class="ml-3 mr-2.5 w-2 h-7 bg-secondary rounded-r-md"></span>
         <div>
           <div>Développement</div>
           <div class="text-xs uppercase font-semibold opacity-60">
@@ -48,8 +62,8 @@
       </div>
 
       <div>
-        <IconShield class="stroke-secondary" />
-        <span class="ml-3 mr-2.5 w-2 h-7 bg-secondary rounded-r-md"></span>
+        <IconShield class="stroke-primary" />
+        <span class="ml-3 mr-2.5 w-2 h-7 bg-primary rounded-r-md"></span>
         <div>
           <div>Cybersécurité</div>
           <div class="text-xs uppercase font-semibold opacity-60">
@@ -70,4 +84,5 @@ import IconShield from "@/components/icons/IconShield.vue";
 import IconComputer from "@/components/icons/IconComputer.vue";
 import IconChip from "@/components/icons/IconChip.vue";
 import IconWifi from "@/components/icons/IconWifi.vue";
+import IconSignal from "@/components/icons/IconSignal.vue";
 </script>
