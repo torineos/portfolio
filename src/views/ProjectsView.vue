@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-20 mb-8">
+  <div class="mx-20 mb-8 mt-5">
     <p class="text-3xl text-center">Projets de stage et cours.</p>
     <ProjectTiles />
   </div>

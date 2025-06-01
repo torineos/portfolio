@@ -14,6 +14,9 @@ import ADSecurityProject from "./views/projects/ADSecurityProject.vue";
 import MultisiteProject from "./views/projects/MultisiteProject.vue";
 import NetworkSecurityProject from "./views/projects/NetworkSecurityProject.vue";
 import PosterProject from "./views/projects/PosterProject.vue";
+import PythonProject from "./views/projects/PythonProject.vue";
+import NetworkSchemeProject from "./views/projects/NetworkSchemeProject.vue";
+import DevWebProject from "./views/projects/DevWebProject.vue";
 import PortfolioProject from "./views/projects/PortfolioProject.vue";
 import TBDProject from "./views/projects/TBDProject.vue";
 import StageMyMSPProject from "./views/projects/StageMyMSPProject.vue";
@@ -53,18 +56,6 @@ const router = createRouter({
       meta: { attached: true }, // Show NavBar and FooterBar
       children: [
         {
-          path: "security",
-          component: ADSecurityProject,
-        },
-        {
-          path: "multisite",
-          component: MultisiteProject,
-        },
-        {
-          path: "network-security",
-          component: NetworkSecurityProject,
-        },
-        {
           path: "tobedecided",
           component: TBDProject,
         },
@@ -89,10 +80,46 @@ const router = createRouter({
       meta: { attached: true },
     },
     {
+      path: "/project/project-network",
+      name: "ProjectNetworkScheme",
+      component: NetworkSchemeProject,
+      meta: { attached: true },
+    },
+    {
+      path: "/project/project-python-dev",
+      name: "ProjectPython",
+      component: PythonProject,
+      meta: { attached: true },
+    },
+    {
+      path: "/project/project-webapp",
+      name: "ProjectDevWeb",
+      component: DevWebProject,
+      meta: { attached: true },
+    },
+    {
+      path: "/project/project-multisite",
+      name: "ProjectMultisite",
+      component: MultisiteProject,
+      meta: { attached: true },
+    },
+    {
+      path: "/project/project-windows-security",
+      name: "ProjectWinSec",
+      component: ADSecurityProject,
+      meta: { attached: true },
+    },
+    {
       path: "/project/project-portfolio",
       name: "ProjectPortfolio",
       component: PortfolioProject,
       meta: { attached: true }, // Show NavBar and FooterBar
+    },
+    {
+      path: "/project/project-network-security",
+      name: "ProjectNetSec",
+      component: NetworkSecurityProject,
+      meta: { attached: true },
     },
     {
       path: "/engvideo",
