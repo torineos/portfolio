@@ -1,9 +1,9 @@
 <template>
   <div
-    class="bg-[url(/Miniat_Poster.webp)] bg-fixed h-24 mx-auto overflow-y-scroll border-x"
+    class="bg-[url(/miniat_traitementdata.webp)] bg-fixed h-24 mx-auto overflow-y-scroll border-x"
   ></div>
   <div class="mx-20 mb-8 mt-5">
-    <p class="text-3xl text-center">Réalisation d'un poster</p>
+    <p class="text-3xl text-center">Introduction à python</p>
     <p class="text-2xl underline">Introduction:</p>
     <p class="text-justify">
       Ce projet est un travail en groupe. Nous devions réaliser une affiche en
@@ -14,62 +14,46 @@
     <p class="text-2xl underline">Objectifs du projet:</p>
     <ul class="list-image-[url(/src/components/icons/IconBook.vue)]">
       <li>
-        Connaître les risques potentiels pris par l’usager d’un environnement
-        numérique.
+        Traiter des données fournies par une entreprise (ici simulée par les
+        professeurs), les extraire et les présenter de manière simple et
+        compréhensible.
       </li>
       <li>
-        Fournir les réflexes afin de devenir un usager conscient, averti et
-        responsable.
+        Automatiser des tâches et des calculs à l'aide de programmes python.
       </li>
       <li>
-        Maîtriser l’hygiène informatique et les bonnes pratiques de l’usage du
-        numérique avant d’aller en stage/alternance en entreprise (respect de la
-        charte informatique imposée par la DSI).
+        Suivre un cahier des charges fourni (ici aussi par les professeurs).
       </li>
       <li>
-        En tant que professionnel des services informatiques de l’entreprise,
-        être capable de sensibiliser les utilisateurs et de leur faire connaître
-        et accepter la charte de bon usage des moyens informatiques.
+        Se mettre en situation d'entreprise, avec des dates butoirs pour chaque
+        étape.
       </li>
     </ul>
     <br />
     <p class="text-2xl underline">Travail effectué:</p>
     <p class="text-justify">
-      La première étape était de compléter le
-      <a class="link link-hover" href="https://secnumacademie.gouv.fr/"
-        >MOOC ANSSI</a
-      >, afin de retenir les notions essentielles de la sécurité numérique. Elle
-      était accompagnée d'une prise de notes, qui facilitait l'apprentissage des
-      fondamentaux mais aussi de faire un premier recoupage des informations
-      nécessaires sur notre thème, ici les rançongiciels. Une fois le recoupage
-      terminé, avons utilisé le logiciel Gantt Project pour nous répartir les
-      tâches entre nous et dans les temps.
+      Nous devions extraire des données des fichiers fournis par les professeurs
+      et les manipuler différemment en fonction du projet que nous nous voyons
+      attribués. J'avais pour ma part un projet qui consistait à aider un
+      enseignant préparer sa fiche de service à partir de l'emploi du temps ADE.
+      <br />
+      Il fallait que la fiche soie personnelle selon les professeurs. Nous
+      avions travaillé avec Pycharm et Git. Personnellement c'était la première
+      fois que j'interagissais avec les versionnements Git, et j'ai trouvé ce
+      système très pratique.
     </p>
     <br />
     <p class="text-2xl underline">Compétences acquises:</p>
     <ul class="list-image-[url(/src/components/icons/IconBook.vue)]">
       <li>
-        Vulgariser les rançongiciels de manière à sensibiliser le grand public
-        et les entreprises.
-      </li>
-      <li>Structurer une affiche facilement lisible et agréable à voir.</li>
-      <li>
-        S'organiser sur un projet sur le long terme à l'aide d'un diagramme de
-        Gantt.
+        Utiliser Pycharm et Git, se familiariser avec les environnements
+        virtuels.
       </li>
       <li>
-        Se répartir les tâches équitablement dans un groupe pour être plus
-        efficaces.
-      </li>
-      <li>
-        Utiliser les ressources à notre disposition pour en tirer des
-        informations utiles.
+        Programmer en suivant un cahier des charges et en respectant des
+        échéances.
       </li>
     </ul>
     <br />
-    <p class="text-justify">
-      Notre affiche a fait parti des affiches désignées à être affichées dans le
-      hall RT !
-    </p>
   </div>
 </template>

@@ -1,9 +1,9 @@
 <template>
   <div
-    class="bg-[url(/Miniat_Poster.webp)] bg-fixed h-24 mx-auto overflow-y-scroll border-x"
+    class="bg-[url(/miniat_devweb.webp)] bg-fixed h-24 mx-auto overflow-y-scroll border-x"
   ></div>
   <div class="mx-20 mb-8 mt-5">
-    <p class="text-3xl text-center">Réalisation d'un poster</p>
+    <p class="text-3xl text-center">Développement d'une application web</p>
     <p class="text-2xl underline">Introduction:</p>
     <p class="text-justify">
       Ce projet est un travail en groupe. Nous devions réaliser une affiche en
@@ -13,50 +13,46 @@
     <br />
     <p class="text-2xl underline">Objectifs du projet:</p>
     <ul class="list-image-[url(/src/components/icons/IconBook.vue)]">
+      <li>Créer une application qui répond au cahier des charges imposé.</li>
       <li>
-        Connaître les risques potentiels pris par l’usager d’un environnement
-        numérique.
+        Manipuler des données dans une base de donnée (ajout, modification,
+        suppression).
       </li>
       <li>
-        Fournir les réflexes afin de devenir un usager conscient, averti et
-        responsable.
-      </li>
-      <li>
-        Maîtriser l’hygiène informatique et les bonnes pratiques de l’usage du
-        numérique avant d’aller en stage/alternance en entreprise (respect de la
-        charte informatique imposée par la DSI).
-      </li>
-      <li>
-        En tant que professionnel des services informatiques de l’entreprise,
-        être capable de sensibiliser les utilisateurs et de leur faire connaître
-        et accepter la charte de bon usage des moyens informatiques.
+        Réaliser un site web dynamique, qui change en fonction du rôle de
+        l'utilisateur authentifié.
       </li>
     </ul>
     <br />
     <p class="text-2xl underline">Travail effectué:</p>
     <p class="text-justify">
-      La première étape était de compléter le
-      <a class="link link-hover" href="https://secnumacademie.gouv.fr/"
-        >MOOC ANSSI</a
-      >, afin de retenir les notions essentielles de la sécurité numérique. Elle
-      était accompagnée d'une prise de notes, qui facilitait l'apprentissage des
-      fondamentaux mais aussi de faire un premier recoupage des informations
-      nécessaires sur notre thème, ici les rançongiciels. Une fois le recoupage
-      terminé, avons utilisé le logiciel Gantt Project pour nous répartir les
-      tâches entre nous et dans les temps.
+      Ce projet est une mise en situation professionnelle pour réaliser une
+      application web correspondante aux demandes des clients (ici des
+      professeurs). Selon le projet qui nous était attribué, nous devions
+      proposer des solutions informatiques pour la gestion de personnel,
+      ressources humaines, ou des missions des personnels. Nous devions réaliser
+      le projet en binôme, donc nous devions nous répartir les tâches pour être
+      plus efficaces. Notre projet consistait à gérer les vacataires pour les
+      ressources humaines de l’IUT. Notre application devait s’adapter en
+      fonction de l’utilisateur connecté, et afficher /donner les permissions
+      les informations qui leurs sont nécessaires (qui changent en fonction du
+      rôle de l’utilisateur).
+      <br />
+      Nous avons utilisé Pycharm (édition professionnelle) pour réaliser notre
+      application.
     </p>
     <br />
     <p class="text-2xl underline">Compétences acquises:</p>
     <ul class="list-image-[url(/src/components/icons/IconBook.vue)]">
       <li>
-        Vulgariser les rançongiciels de manière à sensibiliser le grand public
-        et les entreprises.
+        Créer une application avec une interface compréhensible pour
+        l'utilisateur.
       </li>
-      <li>Structurer une affiche facilement lisible et agréable à voir.</li>
       <li>
-        S'organiser sur un projet sur le long terme à l'aide d'un diagramme de
-        Gantt.
+        Manipuler des données dans une base de donnée (ajout, modification,
+        suppression).
       </li>
+      <li>S'organiser en groupe pour se répartir les tâches.</li>
       <li>
         Se répartir les tâches équitablement dans un groupe pour être plus
         efficaces.
