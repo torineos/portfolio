@@ -13,7 +13,7 @@ import NotFoundView from "./views/NotFoundView.vue";
 import ADSecurityProject from "./views/projects/ADSecurityProject.vue";
 import MultisiteProject from "./views/projects/MultisiteProject.vue";
 import NetworkSecurityProject from "./views/projects/NetworkSecurityProject.vue";
-import PosterProject from "./views/projects/PortfolioProject.vue";
+import PosterProject from "./views/projects/PosterProject.vue";
 import PortfolioProject from "./views/projects/PortfolioProject.vue";
 import TBDProject from "./views/projects/TBDProject.vue";
 import StageMyMSPProject from "./views/projects/StageMyMSPProject.vue";
@@ -65,14 +65,6 @@ const router = createRouter({
           component: NetworkSecurityProject,
         },
         {
-          path: "portfolio",
-          component: PortfolioProject,
-        },
-        {
-          path: "poster",
-          component: PosterProject,
-        },
-        {
           path: "tobedecided",
           component: TBDProject,
         },
@@ -91,7 +83,13 @@ const router = createRouter({
       meta: { attached: true },
     },
     {
-      path: "/project/portfolio",
+      path: "/project/project-poster",
+      name: "ProjectPoster",
+      component: PosterProject,
+      meta: { attached: true },
+    },
+    {
+      path: "/project/project-portfolio",
       name: "ProjectPortfolio",
       component: PortfolioProject,
       meta: { attached: true }, // Show NavBar and FooterBar

@@ -59,9 +59,7 @@
     </div>
 
   </nav>
-  <p>
-    <br />
-  </p>
+
 </template>
 
 <script setup lang="ts">
