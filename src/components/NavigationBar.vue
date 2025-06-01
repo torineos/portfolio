@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar bg-base-100 shadow-md shadow-primary/50 sticky top-0 left-0 w-full">
+  <nav class="navbar bg-base-100 shadow-md shadow-primary/50 sticky fixed z-10 top-0 left-0 w-full">
     <div class="navbar-start">
       <RouterLink
         :to="{ name: 'Home' }"

@@ -9,13 +9,16 @@
       <p class="text-3xl text-center">Conception d'un réseau multi-sites</p>
       <p class="text-2xl underline">Introduction:</p>
       <p class="text-justify">
-        Ce projet est un travail en groupe. Nous devions réaliser une affiche en
-        groupe ayant comme objectif de sensibiliser des personnes en dehors du
-        domaine aux dangers informatiques.
+        Ce projet est un travail en binôme. Ici le but est de travailler avec
+        des réseaux que l'on peut typiquement retrouver en entreprise avec
+        plusieurs locaux. Il devient donc nécessaire de gérer plusieurs adresses
+        IP publiques (ici non pour des fins éducatives) et donc de gérer le
+        filtrage réseau et la correspondance entre les deux sites distants entre
+        les serveurs.
       </p>
       <br />
       <p class="text-2xl underline">Objectifs du projet:</p>
-      <ul class="list-image-[url(/src/components/icons/IconBook.vue)]">
+      <ul class="list-disc">
         <li>Travailler en groupe et se distribuer le travail.</li>
         <li>
           Gérer un site principal et un site secondaire dans un même domaine.
@@ -26,8 +29,9 @@
       <br />
       <p class="text-2xl underline">Travail effectué:</p>
       <p class="text-justify">
-        Ce projet était divisé en 3 parties, correspondant respectivement à 3
-        maquettes. A chaque début de maquette, nous avons réalisé un schéma
+        Ce projet est divisé en 3 parties, correspondant respectivement à 3
+        maquettes.<br />
+        A chaque début de maquette, nous avons réalisé un schéma
         détaillé du réseau à mettre en place et réalisé un cahier des charges
         avec les temps estimés de réalisation et le niveau de difficulté selon
         nos aises.
