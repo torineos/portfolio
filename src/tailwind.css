@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+    themes: light --default, night --prefersdark; 
+}
+
+@source "**/*.{vue,js,ts,jsx,tsx}";
+
+/* Dark mode plugin for manual toggle. Only add button before supporting system theme support. */
+@custom-variant dark (&:where([data-theme=night], [data-theme=night]*));
+
+/* Recurrent styling components here cuz I'm a lazy fuck to the bone */
+@layer components {
+    .button-navbar{
+        @apply btn btn-ghost btn-md btn-primary cursor-pointer rounded-md m-2 text-center text-sm font-semibold uppercase focus:ring-4 focus:ring-blue-300;
+    }
+}
