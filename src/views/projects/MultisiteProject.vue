@@ -74,6 +74,6 @@
 </template>
 
 <script setup lang="ts">
-import IconBook from "/src/components/icons/IconBook.vue";
+
 import ProjectsNavbar from "/src/components/ProjectsNavbar.vue";
 </script>

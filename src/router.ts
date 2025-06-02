@@ -18,7 +18,6 @@ import PythonProject from "./views/projects/PythonProject.vue";
 import NetworkSchemeProject from "./views/projects/NetworkSchemeProject.vue";
 import DevWebProject from "./views/projects/DevWebProject.vue";
 import PortfolioProject from "./views/projects/PortfolioProject.vue";
-import TBDProject from "./views/projects/TBDProject.vue";
 import StageMyMSPProject from "./views/projects/StageMyMSPProject.vue";
 import StageILLProject from "./views/projects/StageILLProject.vue";
 
@@ -54,12 +53,6 @@ const router = createRouter({
       name: "Projects",
       component: ProjectsView,
       meta: { attached: true }, // Show NavBar and FooterBar
-      children: [
-        {
-          path: "tobedecided",
-          component: TBDProject,
-        },
-      ],
     },
     {
       path: "/project/internship-my-msp",
