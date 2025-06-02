@@ -1,68 +1,101 @@
 <template>
   <div
-    class="bg-[url(/miniat_multisites.webp)] bg-fixed h-24 mx-auto overflow-y-scroll border-x"
+    class="bg-[url(/miniat_soc.webp)] bg-fixed h-24 mx-auto overflow-y-scroll border-x"
   ></div>
 
   <div class="grid grid-cols-3">
     <ProjectsNavbar />
     <div class="mx-10 mb-8 mt-5 col-span-2">
       <p class="text-3xl text-center">Jouer et contrer une cyberattaque.</p>
-      <p class="text-2xl underline">Introduction:</p>
+      <p class="text-2xl underline pt-6">Introduction:</p>
       <p class="text-justify">
-        Ce projet est un travail en groupe. Nous devions réaliser une affiche en
-        groupe ayant comme objectif de sensibiliser des personnes en dehors du
-        domaine aux dangers informatiques.
+        Ce projet est un travail individuel. Le projet se découpe en 2 étapes
+        principales: une attaque sur un système d'information avec une faille de
+        sécurité puis des actions préventives pour éviter, détecter et
+        éventuellement bloquer les attaques.
       </p>
       <br />
       <p class="text-2xl underline">Objectifs du projet:</p>
-      <ul class="list-image-[url(/src/components/icons/IconBook.vue)]">
-        <li>Travailler en groupe et se distribuer le travail.</li>
+      <ul class="list-disc">
         <li>
-          Gérer un site principal et un site secondaire dans un même domaine.
+          Utiliser la méthode du brute-force pour deviner un mot de passe faible
+          avec un nom d'utilisateur générique.
         </li>
-        <li>Mettre en place une connexion VPN.</li>
-        <li>Suivre un cahier des charges.</li>
+        <li>Découvrir des vulnérabilités différentes.</li>
+        <li>
+          Pouvoir réagir en cas d'attaque/connaitre les bonnes pratiques pour en
+          éviter le plus posssible.
+        </li>
+        <li>
+          Rédiger un mémento au fur et à mesure de l'avancement dans le projet
+          pour en garder une trace.
+        </li>
       </ul>
       <br />
       <p class="text-2xl underline">Travail effectué:</p>
       <p class="text-justify">
-        Ce projet était divisé en 3 parties, correspondant respectivement à 3
-        maquettes. A chaque début de maquette, nous avons réalisé un schéma
-        détaillé du réseau à mettre en place et réalisé un cahier des charges
-        avec les temps estimés de réalisation et le niveau de difficulté selon
-        nos aises.
+        Le réseau visé est une version miniature d'un réseau "classique"
+        d'entreprise avec une LAN et DMZ, et un site web exposé sur Internet sur
+        la DMZ.
+      </p>
+      <br />
+      <div class="columns-1xs items-center gap-8">
+        <img
+          class="object-contain md:object-cover text-center aspect-square rounded-xl"
+          src="/schemares_soc.webp"
+        />
+      </div>
+      <p class="text-xs text-center mb-8">Schéma réseau du projet.</p>
+      <p class="text-justify">
+        Ce site web présentait une faille de sécurité qui permettait de prendre
+        le controle du serveur à distance et à partir de celui ci, permettre à
+        l'attaquant de naviguer dans le réseau et de changer de machine
+        contrôlée (pivoting).
         <br />
-        La première maquette consistait à créer les 2 sites avec lequel on
-        allait installer notre infrastructure: un site principal et secondaire.
-        Dans ces 2 sites se trouvaient 2 serveurs Active Directory, chacun avec
-        des services différents. Nous avons également du gérer les GPO et les
-        autorisations d'utilisateurs itinérants sur certains dossiers.
+        Cette faille se trouvait au niveau de Javascript, qui est très présent
+        dans les sites. A partir de cette faille, il a été possible de créer une
+        connexion persistante, passer de la dmz au lan et de compromettre au
+        final l'Active Directory Windows.
         <br />
-        La seconde maquette ne reprenait pas la structure de la première, et
-        consistait à créer un réseau interne derrière un Pare-feu/Routeur
-        OPNsense. Il fallait donc gérer les règles de pare-feu suffisamment
-        restrictives afin de garantir la sécurité du réseau et configurer la
-        traduction d'adresse IP en NAT afin de pouvoir accéder aux sites web
-        déployés sur les serveurs en interne. Enfin, nous avons du configurer
-        une connexion Vpn site-à-site IPSec.
+      </p>
+      <div class="columns-1xs items-center gap-8">
+        <img
+          class="object-contain md:object-cover text-center aspect-square rounded-xl"
+          src="/schemares2_soc.webp"
+        />
+      </div>
+      <p class="text-xs text-center mb-8">
+        Schéma réseau du projet pendant la partie défense.
+      </p>
+
+      <p class="text-justify">
+        Ici une plateforme
+        <a
+          class="link link-hover"
+          href="https://www.elastic.co/fr/elastic-stack/"
+          >ELK (Elastic Logstash Kibana)</a
+        >
+        est rajoutée, qui permet une supervision du réseau en quasi temps réel
+        des machines sur lequel l'agent est installé. Depuis cette plateforme,
+        avec les bon paramètres et de la configuration est en capacité d'arrêter
+        la première attaque effectuée dans le premier temps tout en remontant
+        des alertes de danger pour l'administrateur. ELK est compatible avec
+        plusieurs plugins pour par exemple élargir son champ de capacités en
+        terme de fichiers d'informations supplémentaire déchiffrées pour la
+        lecture humaine.
         <br />
-        La troisième maquette rassemblait les 2 premières, en installant les
-        équipements de la première maquette dans l'infrastructure de la seconde.
-        Un VPN nomade est configuré. A la fin du projet, il est possible après
-        une connexion par VPN d'accéder au réseau interne depuis l'extérieur.
+        Pour conclure, j'ai rédigé un rapport d'alerte cybersécurité (factice)
+        qui en situation réelle est destiné à l'ANSSI pour prendre des mesures
+        de sécurité suite à une attaque.
       </p>
       <br />
       <p class="text-2xl underline">Compétences acquises:</p>
-      <ul class="list-image-[url(/src/components/icons/IconBook.vue)]">
-        <li>Configurer des pare-feux restrictifs.</li>
+      <ul class="list-disc">
         <li>
-          Utiliser des règles de NAT afin de traduire les adresses IP entre les
-          réseaux internes et externes.
+          Comprendre plus d'éléments du fonctionnement des systèmes Linux.
         </li>
-        <li>
-          Mettre en place des réseaux privés gérés principalement par un seul
-          serveur Active Directory.
-        </li>
+        <li>S'échapper d'un container.</li>
+        <li>Rédiger un rapport de cyberattaque pour l'ANSSI.</li>
       </ul>
       <br />
     </div>
