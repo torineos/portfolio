@@ -18,7 +18,7 @@
 
       <div class="divider divider-primary text-2xl"></div>
       <div>
-        <p class="text-2xl text-center">Timeline</p>
+        <p class="text-2xl text-center">Timeline études & stages</p>
         <ul
           class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical"
         >
