@@ -57,7 +57,7 @@
       </p>
       <br />
       <p class="text-2xl underline">Compétences acquises:</p>
-      <ul class="list-image-[url(/src/components/icons/IconBook.vue)]">
+      <ul class="list-disc">
         <li>Configurer des pare-feux restrictifs.</li>
         <li>
           Utiliser des règles de NAT afin de traduire les adresses IP entre les
