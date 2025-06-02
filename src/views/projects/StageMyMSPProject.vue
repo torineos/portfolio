@@ -90,6 +90,5 @@
 </template>
 
 <script setup lang="ts">
-
 import ProjectsNavbar from "/src/components/ProjectsNavbar.vue";
 </script>
