@@ -7,6 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools';
 
 export default defineConfig({
   plugins: [vue(), vueDevTools(), tailwindcss(), lezer()],
+  base: '/portfolio/',  // Add this 
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
